@@ -3,9 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-Hello! A good ticketing system is at the heart of many jobs in information technology. In this tutorial, I will walk through the prerequisites and installation of the open-source ticketing system osTicket.<br />
-
-osTicket is a free and excellent way to learn about ticket severity, SLA, assigning users to tickets, and more.
+Hello! A good ticketing system is at the heart of many jobs in information technology. In this tutorial, I will walk through the prerequisites and installation of the open-source ticketing system osTicket. osTicket is a free and excellent way to learn about ticket severity, SLAs, assigning users, and more.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,25 +28,45 @@ osTicket is a free and excellent way to learn about ticket severity, SLA, assign
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Screenshot of Azure's search bar showing icons including one for virtual machine creation"/>
+<img src="https://i.imgur.com/suJr4nf.png" height="80%" width="80%" alt="Screenshot of Azure's create resource group page"/>
 </p>
 <p>
-First, create a resource group and virtual machine (VM) with Azure. A few tips here: make sure that you remember the username and password chosen for the administrative account of the VM. Make note of the public IP address as well to login with Remote Desktop (an app that is native to Windows but requires a download from the App Store if using Mac).
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="A screenshot of file icons in Google Drive with titles of different software applications"/>
-</p>
-<p>
-Install all the prerequisite software so osTicket can run correctly.
+First, create a resource group with Azure. The group's name can be anything you like. Click on the button that says "Review + create" then click "Create" on the next screen.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QlYhDIl.png" height="80%" width="80%" alt="Screenshot of Azure's virtual machine creation page"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a virtual machine (VM) with Azure. To reach this screen easily, you can type "virtual machines" in the search bar. Click on the button that says "Create" and it will take you to a new page. Fill out the boxes as follows (and everything else can be left at its default). </p>
+</p>
+
+<ul>
+<li>Resource group: click on the one you created earlier</li>
+<li>Virtual machine name: osTicket</li>
+<li>Region: choose the closest one to you </li>
+<li>Image: Windows 10 Pro, version 21H2 - x64 Gen2</li>
+<li>Size: ideally one with 4 vcpus, 16 GiB of memory</li>
+<li>Username/password: choose any that you will remember for this project</li>
+<li>Licensing: check the box to confirm</li>
+</ul>
+
+<p>Click on the button that says "Review + create" then click "Create."</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/klw7Dsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click on the name of your newly created VM to copy its public internet protocol (IP) address.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/gSjJoRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Enter the IP address into the Remote Desktop application along with your previously chosen username and password. If you are using Windows, the Remote Desktop app is already installed. If you are using Mac, you will need to download it from the App Store.
 </p>
 <br />
