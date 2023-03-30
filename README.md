@@ -124,7 +124,7 @@ Type "IIS" into the search bar and open the program as an administrator (this is
 <img src="https://i.imgur.com/U4fvcV2.png" height="80%" width="80%" alt="Screenshot of the osTicket website's landing page"/>
 </p>
 <p>
-Extract the archive installaiton file for osTicket into the C:\inetpub\wwwroot location. Rename the "upload" folder to "osTicket" and double-check that it's typed correctly. Any errors will cause it to fail. Stop and start IIS once again.</p>
+Extract the archive installation file for osTicket into the C:\inetpub\wwwroot location. Rename the "upload" folder to "osTicket" and double-check that it's typed correctly. Any errors will cause it to fail. Stop and start IIS once again.</p>
 <br />
 
 <p>
