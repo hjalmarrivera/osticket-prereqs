@@ -56,7 +56,7 @@ Create a virtual machine (VM) with Azure. To reach this screen easily, you can t
 <br />
 
 <p>
-<img src="https://i.imgur.com/klw7Dsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/klw7Dsw.png" height="80%" width="80%" alt="Screenshot of the Azure menu showing details of a virtual machine, including its public IP address"/>
 </p>
 <p>
 Click on the name of your newly created VM to copy its public internet protocol (IP) address.
@@ -64,9 +64,21 @@ Click on the name of your newly created VM to copy its public internet protocol 
 <br />
 
 <p>
-<img src="https://i.imgur.com/gSjJoRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gSjJoRa.png" height="80%" width="80%" alt="Screenshot of the Remote Desktop menu"/>
 </p>
 <p>
 Enter the IP address into the Remote Desktop application along with your previously chosen username and password. If you are using Windows, the Remote Desktop app is already installed. If you are using Mac, you will need to download it from the App Store.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/j2YhazW.png" height="80%" width="80%" alt="Screenshot showing list of files to install"/>
+</p>
+<p>
+Open Microsoft Edge inside your VM and download the necessary files to run osTicket, listed in the "Prerequisites to Install" section of this tutorial. Install them to proceed.
+</p>
+<br />
+
+---
+
+For post-installation configuration of osTicket itself, continue with <a href='https://github.com/hjalmardev/post-install-config'>part two</a> of this tutorial.
