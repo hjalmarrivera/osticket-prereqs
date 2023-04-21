@@ -136,4 +136,4 @@ Extract the archive installaiton file for osTicket into the C:\inetpub\wwwroot l
 
 ---
 
-➡️ For post-installation setup of osTicket itself (the fun part!) and to learn about configuring users, roles, departments, and SLAs——continue with <a href='https://github.com/hjalmardev/post-install-config'>part two</a> of this tutorial.
+➡️ For post-installation setup of osTicket itself (the fun part!) and to learn about configuring users, roles, departments, and SLAs——stay tuned for part two of this tutorial which will be available later at <a href='https://github.com/hjalmardev/post-install-config'>this link</a>.
